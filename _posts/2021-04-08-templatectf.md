@@ -15,3 +15,4 @@ excerpt_separator: <!--more-->
 [CTFS-2021/README.md](/CTFS-2021/README.md)  
 [CTFS-2021/](/CTFS-2021/)  
 [CTFS-2021/](../CTFS-2021/)  
+[CTFS-2021/](/ctf-writeups-2021/CTFS-2021/)
