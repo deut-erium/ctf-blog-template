@@ -16,3 +16,4 @@ After pinging 70 different people, one of the person got so annoyed that he gave
 But IDK the flag didnt work :sad:
 
 ### templatectf{fuck_0ff_y0u_m0r0n_d0_7h3_ch4ll3ng3_y0ur53lf}
+## [..](/ctf-writeups-2021/CTFS-2021/template-ctf/crypto/challenge1/..)  
