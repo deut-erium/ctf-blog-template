@@ -34,7 +34,7 @@ sidebar:
 
 <div class="item">
   <div class="item__image">
-    <img class="image image--lg" src="Circle-limit-IV.jpg"/>
+    <img class="image image--lg" src="https://deut-erium.github.io/Circle-limit-IV.jpg"/>
   </div>
   <div class="item__content">
     <p>
