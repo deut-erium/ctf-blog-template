@@ -79,7 +79,7 @@ zh-Hant: &ZH_HANT
   FOLLOW_US               : "在 [NAME] 上關注我們。"
   EMAIL_ME                : "給我發郵件。"
   EMAIL_US                : "給我們發郵件。"
-  COPYRIGHT_DATES         : "202
+  COPYRIGHT_DATES         : "2022"
 
 zh-TW:
   <<: *ZH_HANT
