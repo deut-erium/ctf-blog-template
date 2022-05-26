@@ -1,6 +1,16 @@
 header:
   - titles:
       # @start locale config
+      en      : &EN       GitHub
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: https://github.com/deut-erium/WriteUps/tree/master/_posts
+
+  - titles:
+      # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
       en-US   : *EN
@@ -52,13 +62,15 @@ header:
 aboutnav:
   - title:      About
     children:
-      - title:  about
-        url:    /about.html
+      - title:  About Me
+        url:    https://deut-erium.github.io/about.html 
+      - title: Blog Home
+        url:   https://deut-erium.github.io/
   - title:      CTFs
     children:
-      - title:   CTFx
-        url:     /
-  - title:      Contributions
-    children:
-      - title:  Contributions
-        url:    /2021/04/08/contributions.html
+      - title:   CTFs-2022
+        url:     /archive.html?tag=2022
+      - title:   CTFs-2021
+        url:     /archive.html?tag=2021
+      - title:   CTFs-2020
+        url:     /archive.html?tag=2020

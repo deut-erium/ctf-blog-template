@@ -21,7 +21,11 @@ highlight_theme: "tomorrow-night-bright" # "default" (default), "tomorrow", "tom
 url     : "https://deut-erium.github.io/ctf-writeups-2021"
 baseurl : "/ctf-writeups-2021"
 title   : CTF Writeups
+tagline : "Himanshu Sheoran's blog on tech, security, CTFs and cryptography"
 description: > # this means to ignore newlines until "Language & timezone"
+  Himanshu Sheoran is a nerd typically writing about cryptography, Capture
+  The Flag i.e CTF events, hacking, cybersecurity, SAT SMT solvers and 
+  computer science in general.
   
 
 
@@ -48,14 +52,14 @@ author:
   medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : himanshu-sheoran-ab047b152 # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  linkedin  : himanshu-sheoran # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
   github    : deut-erium # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: deut-erium/deut-erium.github.io/ctf-writeups-2021
+repository: deut-erium/ctf-writeups-2021
 repository_tree: master
 
 
@@ -156,11 +160,11 @@ pageview:
 ## => Search
 ##############################
 search:
-  provider: default # "default" (default), false, "google", "custom"
+  provider: "google" #default # "default" (default), false, "google", "custom"
 
   ## Google Custom Search Engine
   google:
-    custom_search_engine_id: # Google Custom Search Engine ID
+    custom_search_engine_id: 416a5de1e771f1814 # Google Custom Search Engine ID
 
 
 ## => Analytics
@@ -170,20 +174,25 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id : "G-3WKEFWKQ71" # Google Analytics id for the site
+    tracking_id : "UA-161905683-1" # universal analytics
     anonymize_ip: false # Anonymize IP tracking for Analytics
+    gtag_id : "GTM-T7V49MX"
+    ga4_id : "G-G36CSBPQ7J"
 
 
 ## => Build
 ##############################
 markdown    : kramdown
 highlighter : rouge
-permalink   : date
+permalink   : /:path
 
 exclude:
   - LICENSE
-  - README.md
   - CONTRIBUTING.md
+  - jekyll-text-theme.gemspec
+
+include:
+  - README.md
 
 defaults:
   - scope:
@@ -191,11 +200,11 @@ defaults:
       type: posts
     values:
       layout: article
-      sharing: true
+      sharing: false
       license: true
       aside:
         toc: true
-      show_edit_on_github: false
+      show_edit_on_github: true
       show_subscribe: true
       pageview: true
 
@@ -207,3 +216,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-postfiles
+  - jekyll-seo-tag
