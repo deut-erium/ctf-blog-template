@@ -18,9 +18,9 @@
 ##############################
 text_skin: "dark" # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: "tomorrow-night-bright" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : "https://deut-erium.github.io/ctf-writeups-2021"
-baseurl : "/ctf-writeups-2021"
-title   : CTF Writeups
+url     : "https://deut-erium.github.io/ctf-blog-templte"
+baseurl : "/ctf-blog-template"
+title   : Blog on CTFs
 tagline : "Himanshu Sheoran's blog on tech, security, CTFs and cryptography"
 description: > # this means to ignore newlines until "Language & timezone"
   Himanshu Sheoran is a nerd typically writing about cryptography, Capture
@@ -59,7 +59,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: deut-erium/ctf-writeups-2021
+repository: deut-erium/ctf-blog-template
 repository_tree: master
 
 
