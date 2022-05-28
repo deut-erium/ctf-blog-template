@@ -1,1 +1,1 @@
-Sitemap: https://deut-erium.github.io/ctf-blog-templte/ctf-blog-template/sitemap.xml
+Sitemap: https://deut-erium.github.io/ctf-blog-template/sitemap.xml
